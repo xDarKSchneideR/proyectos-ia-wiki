@@ -7,9 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Aprendiendo VibeCoding IA',
-      defaultLocale: 'es',
+      defaultLocale: 'root',
       locales: {
-        es: {
+        root: {
           label: 'Español',
           lang: 'es',
         },
