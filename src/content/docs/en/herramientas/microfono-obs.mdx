@@ -1,0 +1,29 @@
+---
+title: OBS Mic Monitor
+description: On-screen visual indicator that detects if the microphone is muted in OBS
+tags: [python, desktop, obs]
+repo: https://github.com/xDarKSchneideR/Microfono_OBS
+---
+
+## Description
+
+Windows desktop app that shows a red circle in the top-right corner of the screen when the microphone is muted in OBS Studio. It connects to the OBS WebSocket to detect microphone status in real time and minimizes to the system tray.
+
+**Repository:** [github.com/xDarKSchneideR/Microfono_OBS](https://github.com/xDarKSchneideR/Microfono_OBS)
+
+## Technologies
+
+- Python 3
+- Tkinter (GUI)
+- OBS WebSocket (obsws-python) for OBS communication
+- pystray + Pillow for system tray icon
+- psutil for OBS process detection
+
+## Key features
+
+- Red circle overlay when microphone is muted
+- Auto-hides when unmuted
+- System tray icon with configuration options
+- OBS WebSocket password configuration
+- Automatic OBS open/close detection
+- Transparent indicator, does not interfere with other apps

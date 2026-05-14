@@ -1,0 +1,29 @@
+---
+title: Micrófono OBS
+description: Indicador visual en pantalla que detecta si el micrófono está muteado en OBS
+tags: [python, escritorio, obs]
+repo: https://github.com/xDarKSchneideR/Microfono_OBS
+---
+
+## Descripción
+
+Aplicación de escritorio para Windows que muestra un círculo rojo en la esquina superior derecha de la pantalla cuando el micrófono está muteado en OBS Studio. Se conecta al WebSocket de OBS para detectar el estado del micrófono en tiempo real y se minimiza a la bandeja del sistema.
+
+**Repositorio:** [github.com/xDarKSchneideR/Microfono_OBS](https://github.com/xDarKSchneideR/Microfono_OBS)
+
+## Tecnologías
+
+- Python 3
+- Tkinter (interfaz gráfica)
+- OBS WebSocket (obsws-python) para comunicación con OBS
+- pystray + Pillow para icono en bandeja del sistema
+- psutil para detectar si OBS está en ejecución
+
+## Características principales
+
+- Círculo rojo en pantalla cuando el micrófono está muteado
+- Se oculta automáticamente al desmutear
+- Icono en bandeja del sistema con opciones de configuración
+- Configuración de contraseña del WebSocket de OBS
+- Detección automática de apertura/cierre de OBS
+- Indicador transparente, no interfiere con otras aplicaciones

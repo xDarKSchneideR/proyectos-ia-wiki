@@ -33,6 +33,20 @@ export default defineConfig({
           },
           autogenerate: { directory: 'fullstack' },
         },
+        {
+          label: 'Herramientas',
+          translations: {
+            en: 'Tools',
+          },
+          autogenerate: { directory: 'herramientas' },
+        },
+        {
+          label: 'Guía PWA',
+          translations: {
+            en: 'PWA Guide',
+          },
+          autogenerate: { directory: 'guia-pwa' },
+        },
       ],
     }),
   ],

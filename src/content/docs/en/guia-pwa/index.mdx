@@ -1,0 +1,59 @@
+---
+title: PWA Installation Guide
+description: How to install Progressive Web Apps and all their benefits
+---
+
+## What is a PWA?
+
+A **PWA (Progressive Web App)** is a web application that behaves like a native app. It can be installed on your device, works offline, and can access system features like notifications.
+
+## How to install a PWA
+
+### On mobile (Android)
+
+1. Open the PWA website in Chrome
+2. A banner or notification will appear saying "Install app"
+3. Tap **Install**
+4. The app will be added to your home screen with its own icon
+
+You can also do it manually:
+1. Tap the three dots (menu) in Chrome
+2. Select **Install app**
+3. Confirm the installation
+
+### On mobile (iOS)
+
+1. Open the website in Safari
+2. Tap the **Share** button (the square with the up arrow)
+3. Scroll down and select **Add to Home Screen**
+4. Name it and tap **Add**
+
+### On desktop
+
+1. Open the website in Chrome, Edge, or Brave
+2. Look for the install icon in the address bar (a monitor with a down arrow)
+3. Click **Install**
+4. The PWA will open in its own window without the browser interface
+
+## PWA benefits
+
+| Benefit | Explanation |
+|---------|-------------|
+| **No app store required** | No Google Play or App Store needed — install directly from the browser |
+| **Offline-first** | Work without an internet connection thanks to the Service Worker |
+| **Lightweight** | Take up very little space compared to native apps |
+| **Auto-update** | Always have the latest version on load |
+| **Cross-platform** | Work on Android, iOS, Windows, and Mac with the same code |
+| **Secure** | Always served via HTTPS, encrypted connections |
+| **Speed** | Instant loading thanks to smart caching |
+| **Home screen icon** | Look and feel like native apps |
+
+## Technical requirements
+
+For a website to be installable as a PWA:
+
+1. **Service Worker** — a script that manages caching and offline functionality
+2. **Manifest JSON** — file defining the app name, icons, and configuration
+3. **HTTPS** — secure connection required for Service Workers
+
+All PWA projects on this site meet these requirements.

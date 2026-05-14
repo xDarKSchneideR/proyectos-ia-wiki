@@ -1,0 +1,59 @@
+---
+title: Guía de instalación PWA
+description: Cómo instalar aplicaciones web progresivas y todos sus beneficios
+---
+
+## ¿Qué es una PWA?
+
+Una **PWA (Progressive Web App)** es una aplicación web que se comporta como una aplicación nativa. Se puede instalar en el dispositivo, funciona sin conexión a Internet, y puede acceder a características del sistema como notificaciones.
+
+## ¿Cómo instalar una PWA?
+
+### En el móvil (Android)
+
+1. Abrí la página web de la PWA en Chrome
+2. Aparecerá un banner o notificación que dice "Instalar aplicación"
+3. Tocá **Instalar**
+4. La aplicación se agregará a tu pantalla de inicio con su propio icono
+
+También podés hacerlo manualmente:
+1. Tocá los tres puntos (menú) en Chrome
+2. Seleccioná **Instalar aplicación**
+3. Confirmá la instalación
+
+### En el móvil (iOS)
+
+1. Abrí la página web en Safari
+2. Tocá el botón **Compartir** (el cuadrado con la flecha hacia arriba)
+3. Desplazate hacia abajo y seleccioná **Agregar a pantalla de inicio**
+4. Poné el nombre que quieras y tocá **Agregar**
+
+### En el ordenador
+
+1. Abrí la página web en Chrome, Edge o Brave
+2. Buscá el icono de instalación en la barra de direcciones (un monitor con una flecha)
+3. Hacé clic en **Instalar**
+4. La PWA se abrirá en su propia ventana sin la interfaz del navegador
+
+## Beneficios de las PWAs
+
+| Beneficio | Explicación |
+|-----------|-------------|
+| **Sin necesidad de tienda** | No requieren Google Play ni App Store — se instalan directamente desde el navegador |
+| **Offline-first** | Funcionan sin conexión a Internet gracias al Service Worker |
+| **Livianas** | Ocupan muy poco espacio comparadas con apps nativas |
+| **Actualización automática** | Siempre tienen la última versión al cargar |
+| **Multiplataforma** | Funcionan en Android, iOS, Windows y Mac con el mismo código |
+| **Seguras** | Se sirven siempre por HTTPS, las conexiones son cifradas |
+| **Velocidad** | Carga instantánea gracias al caché inteligente |
+| **Icono en pantalla de inicio** | Se ven y se sienten como apps nativas |
+
+## Requisitos técnicos
+
+Para que una web sea instalable como PWA necesita:
+
+1. **Service Worker** — un script que gestiona el caché y el funcionamiento offline
+2. **Manifest JSON** — archivo que define el nombre, iconos y configuración de la app
+3. **HTTPS** — conexión segura obligatoria para los Service Workers
+
+Todos los proyectos PWA de este sitio cumplen con estos requisitos.
